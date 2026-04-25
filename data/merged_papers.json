@@ -1,0 +1,29 @@
+[
+    {
+        "arxiv_id": "1708.03731v3",
+        "title": "OpenML Benchmarking Suites",
+        "summary": "Machine learning research depends on objectively interpretable, comparable, and reproducible algorithm benchmarks. We advocate the use of curated, comprehensive suites of machine learning tasks to standardize the setup, execution, and reporting of benchmarks. We enable this through software tools that help to create and leverage these benchmarking suites. These are seamlessly integrated into the OpenML platform, and accessible through interfaces in Python, Java, and R. OpenML benchmarking suites (a) are easy to use through standardized data formats, APIs, and client libraries; (b) come with extensive meta-information on the included datasets; and (c) allow benchmarks to be shared and reused in future studies. We then present a first, carefully curated and practical benchmarking suite for classification: the OpenML Curated Classification benchmarking suite 2018 (OpenML-CC18). Finally, we discuss use cases and applications which demonstrate the usefulness of OpenML benchmarking suites and the OpenML-CC18 in particular.",
+        "link": "https://arxiv.org/abs/1708.03731v3",
+        "pdf_link": "https://arxiv.org/pdf/1708.03731v3.pdf",
+        "published": "2017-08-11T23:28:48Z",
+        "full_text": "OpenML Benchmarking Suites\nBerndBischl1,GiuseppeCasalicchio1,MatthiasFeurer2,PieterGijsbers3,FrankHutter2,4,..."
+    },
+    {
+        "arxiv_id": "2511.15757v1",
+        "title": "Rethinking Kernel Program Repair: Benchmarking and Enhancing LLMs with RGym",
+        "summary": "Large Language Models (LLMs) have revolutionized automated program repair (APR) but current benchmarks like SWE-Bench predominantly focus on userspace applications and overlook the complexities of kernel-space debugging and repair. The Linux kernel poses unique challenges due to its monolithic structure, concurrency, and low-level hardware interactions. Prior efforts such as KGym and CrashFixer have highlighted the difficulty of APR in this domain, reporting low success rates or relying on costly and complex pipelines and pricey cloud infrastructure. In this work, we introduce RGym, a lightweight, platform-agnostic APR evaluation framework for the Linux kernel designed to operate on local commodity hardware. Built on RGym, we propose a simple yet effective APR pipeline leveraging specialized localization techniques (e.g., call stacks and blamed commits) to overcome the unrealistic usage of oracles in KGym. We test on a filtered and verified dataset of 143 bugs. Our method achieves up to a 43.36% pass rate with GPT-5 Thinking while maintaining a cost of under $0.20 per bug. We further conduct an ablation study to analyze contributions from our proposed localization strategy, prompt structure, and model choice, and demonstrate that feedback-based retries can significantly enhance success rates.",
+        "link": "https://arxiv.org/abs/2511.15757v1",
+        "pdf_link": "https://arxiv.org/pdf/2511.15757v1.pdf",
+        "published": "2025-11-19T09:12:47Z",
+        "full_text": "Rethinking Kernel Program Repair: Benchmarking\nand Enhancing LLMs with RGym\nKareemShehada YifanWu..."
+    },
+    {
+        "arxiv_id": "2402.16040v5",
+        "title": "EHRNoteQA: An LLM Benchmark for Real-World Clinical Practice Using Discharge Summaries",
+        "summary": "Discharge summaries in Electronic Health Records (EHRs) are crucial for clinical decision-making, but their length and complexity make information extraction challenging, especially when dealing with accumulated summaries across multiple patient admissions. Large Language Models (LLMs) show promise in addressing this challenge by efficiently analyzing vast and complex data. Existing benchmarks, however, fall short in properly evaluating LLMs' capabilities in this context, as they typically focus on single-note information or limited topics, failing to reflect the real-world inquiries required by clinicians. To bridge this gap, we introduce EHRNoteQA, a novel benchmark built on the MIMIC-IV EHR, comprising 962 different QA pairs each linked to distinct patients' discharge summaries. Every QA pair is initially generated using GPT-4 and then manually reviewed and refined by three clinicians to ensure clinical relevance. EHRNoteQA includes questions that require information across multiple discharge summaries and covers eight diverse topics, mirroring the complexity and diversity of real clinical inquiries. We offer EHRNoteQA in two formats: open-ended and multi-choice question answering, and propose a reliable evaluation method for each. We evaluate 27 LLMs using EHRNoteQA and examine various factors affecting the model performance (e.g., the length and number of discharge summaries). Furthermore, to validate EHRNoteQA as a reliable proxy for expert evaluations in clinical practice, we measure the correlation between the LLM performance on EHRNoteQA, and the LLM performance manually evaluated by clinicians. Results show that LLM performance on EHRNoteQA have higher correlation with clinician-evaluated performance (Spearman: 0.78, Kendall: 0.62) compared to other benchmarks, demonstrating its practical relevance in evaluating LLMs in clinical settings.",
+        "link": "https://arxiv.org/abs/2402.16040v5",
+        "pdf_link": "https://arxiv.org/pdf/2402.16040v5.pdf",
+        "published": "2024-02-25T09:41:50Z",
+        "full_text": "EHRNoteQA: An LLM Benchmark for Real-World\nClinical Practice Using Discharge Summaries\nSunjunKweon1,JiyounKim1..."
+    }
+]
